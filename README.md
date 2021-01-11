@@ -1,6 +1,6 @@
 
 # Heart Failure Predication
-![Heart](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/Blue%20and%20Peach%20%20Illustrated%20Heart%20Health%20Fair%20Flyer.png)
+
 ## Table of Contents
 * ### Project Summary
 * ### Project Set Up and Installation
