@@ -17,8 +17,8 @@
 * ## Standout Suggestions
 ## Project Summary  
 Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.
-Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure. Most cardiovascular diseases can be prevented by addressing behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol using population-wide strategies.
-In this project, I aim to develop 2 ML models, using Hyperdrive to tune the hyperparameters of a Linear Regression model and Azure's AutoML to find the model that best fits our data. The two models will be compared together and the best model will be deployed via Azure, consumed and published through an endpoint. 
+Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure. Most cardiovascular diseases can be prevented by addressing behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol using population-wide strategies.  
+In this project, I aim to develop 2 ML models, using Hyperdrive to tune the hyperparameters of a Logisitic Regression model and Azure's AutoML to find the model that best fits our data. The two models will be compared together and the best model will be deployed via Azure, consumed and published through an endpoint. 
 
 ## Project Set Up and Installation  
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
@@ -30,10 +30,10 @@ Our dataset consists of 299 training examples and 13 features, we aim to predict
 *TODO*: Explain about the data you are using and where you got it from.
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+This is a binary classification task where our target column is **DEATH_EVENT** which may have the value 1 in case of death due to heart faulure and 0 in case of survival.
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
+The data has been downloaded from [Kaggle](Kaggle https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) then uploaded to my github where it's later used as a dataframe in the notebook provided. 
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
