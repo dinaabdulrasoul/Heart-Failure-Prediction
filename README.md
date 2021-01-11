@@ -1,13 +1,30 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
 # Heart Failure Predication
 
-*TODO:* Write a short introduction to your project.
+## Table of Contents
+* ### Project Summary
+* ### Project Set Up and Installation
+* ### Dataset
+* ### Overview
+* ### Task
+* ### Access
+* ### Automated ML
+  * Results
+* ### Hyperparameter Tuning
+  * Results
+* ### Model Deployment
+* ### Screen Recording
+* ## Standout Suggestions
+## Project Summary  
+Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.
+Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure. Most cardiovascular diseases can be prevented by addressing behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol using population-wide strategies.
+In this project, I aim to develop 2 ML models, using Hyperdrive to tune the hyperparameters of a Linear Regression model and Azure's AutoML to find the model that best fits our data. The two models will be compared together and the best model will be deployed via Azure, consumed and published through an endpoint. 
 
-## Project Set Up and Installation
+## Project Set Up and Installation  
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
 
-## Dataset
+## Dataset  
+Our dataset consists of 299 training examples and 13 features, we aim to predict the feature **DEATH_EVENT** which may have the value 1 in case of death due to heart faulure and 0 in case of survival.
 
 ### Overview
 *TODO*: Explain about the data you are using and where you got it from.
