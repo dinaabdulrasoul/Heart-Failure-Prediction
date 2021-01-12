@@ -27,16 +27,37 @@ In this project, I aim to develop 2 ML models, using Hyperdrive to tune the hype
 Our dataset consists of 299 training examples and 13 features, we aim to predict the feature **DEATH_EVENT** which may have the value 1 in case of death due to heart faulure and 0 in case of survival.
 
 ### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+This dataset is available via Kaggle. The dataset includes 13 features that all contribute to the factors that cause Cardiovascular diseases such as age, anaemia and diabetes.  
+Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.
+Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure. Most cardiovascular diseases can be prevented by addressing behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol using population-wide strategies.
 
 ### Task
 This is a binary classification task where our target column is **DEATH_EVENT** which may have the value 1 in case of death due to heart faulure and 0 in case of survival.
 
 ### Access
-The data has been downloaded from [Kaggle](Kaggle https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) then uploaded to my github where it's later used as a dataframe in the notebook provided. 
+The data has been downloaded from [Kaggle](Kaggle https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) then uploaded to Azure Machine Learning Studio's Datasets where it'll used to train the models.
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+For the AutoML run we did the following steps:
+* Set up our environment and workspace. 
+* Creating a Compute Cluster or using an existing one.
+* Importing Our dataset.
+* Configuring the AutoML run then submitting it. 
+* Saving the best run & registring the model.
+* Deploying the best model to a webservice. 
+
+The AutoMl configuration included the following:
+  1 - task
+  2 - primary_metric
+  3 - compute_target
+  4 - training_data
+  5 - label_column_name
+  6 - n_cross_validations
+  7 - max_concurrent_iterations
+  8 - featurization
+  9 - debug_log
+  10 - enable_early_stopping
+
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
