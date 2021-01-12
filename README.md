@@ -46,17 +46,17 @@ For the AutoML run we did the following steps:
 * Saving the best run & registring the model.
 * Deploying the best model to a webservice. 
 
-The AutoMl configuration included the following:
-  1 - task
-  2 - primary_metric
-  3 - compute_target
-  4 - training_data
-  5 - label_column_name
-  6 - n_cross_validations
-  7 - max_concurrent_iterations
-  8 - featurization
-  9 - debug_log
-  10 - enable_early_stopping
+The AutoMl configuration included the following:  
+  1 - task  
+  2 - primary_metric  
+  3 - compute_target  
+  4 - training_data  
+  5 - label_column_name  
+  6 - n_cross_validations  
+  7 - max_concurrent_iterations  
+  8 - featurization  
+  9 - debug_log  
+  10 - enable_early_stopping  
 
 
 ### Results
