@@ -63,8 +63,24 @@ The AutoML configuration included the following:
 Best Run Id:  AutoML_a0ce9e98-d212-464a-84ef-994c229fed02_36
 * Voting Ensemble is an ensemble machine learning model that combines the predictions from multiple other models. It is a technique that may be used to improve model performance, ideally achieving better performance than any single model used in the ensemble, that involves summing the predictions made by classification models.
 * This result could be improved by increasing the experiment timeout time to allow automl to explore more models, which might be increase the accuracy. 
-[!Run Details]()
 
+**AutoML Run Widget:**
+[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%201.PNG)
+[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%202.PNG)
+[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%203.PNG)
+[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%204.PNG)
+[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%205.PNG)
+[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%206.PNG)
+
+**AutoML Best Run Details:**
+[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best%20run.PNG)
+[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%201.PNG)
+[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
+[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%203.PNG)
+[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%204.PNG)
+[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
+**Best Run Metrics:**
+[!Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/automl.PNG)
 
 ## Hyperparameter Tuning
 
@@ -120,11 +136,11 @@ The following steps have been performed to deploy the model and interact with it
 * Creating an ACI deployment configuration with key-based authentication enabled.
 * Configuring *InferenceConfig* using the environment & the scoring script created as an entry script.
 * Deploying the model to an ACI webservice. 
-![Endpoint of AutoML run]()  
-![Endpoint of AutoML run]() 
+![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/endpoint%20of%20automl%20run.PNG)  
+![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/endpoint%20of%20automl%20run%202.PNG) 
 * A request is sent to the webservice endpoint.
 * The following image shows the post request sent to the request API as a JSON document as well as the output of that request:
-![Rest call to endpoint run]() 
+![Rest call to endpoint run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/json.PNG) 
 
 To send a request to the endpoint the following steps are followed:
 * Getting the primary key, JSON data and scoring URI. 
@@ -164,4 +180,4 @@ To send a request to the endpoint the following steps are followed:
 
 ## Standout Suggestions
 Application Insights have been enabled for the deployed model. 
-![App Insights]() 
+![App Insights](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/enable_logging.PNG) 
