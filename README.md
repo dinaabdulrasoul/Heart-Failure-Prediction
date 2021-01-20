@@ -129,7 +129,7 @@ The following steps have been performed to deploy the model and interact with it
 To send a request to the endpoint the following steps are followed:
 * Getting the primary key, JSON data and scoring URI. 
 * The JSON data should follow the following structure:
-...
+```
     data= { "data":
         [
             {
@@ -150,7 +150,7 @@ To send a request to the endpoint the following steps are followed:
             }
         ]
         }
-...
+```
         
 * Creating the header with key *Content-Type* and value *application/json*.
 * Setting the value of Authorization with Bearer token and primary key.
