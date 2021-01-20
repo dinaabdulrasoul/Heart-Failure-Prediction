@@ -65,20 +65,20 @@ Best Run Id:  AutoML_a0ce9e98-d212-464a-84ef-994c229fed02_36
 * This result could be improved by increasing the experiment timeout time to allow automl to explore more models, which might be increase the accuracy. 
 
 **AutoML Run Widget:**
-[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%201.PNG)
-[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%202.PNG)
-[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%203.PNG)
-[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%204.PNG)
-[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%205.PNG)
-[!Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%206.PNG)
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%201.PNG)
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%202.PNG)
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%203.PNG)
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%204.PNG)
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%205.PNG)
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%206.PNG)
 
 **AutoML Best Run Details:**
-[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best%20run.PNG)
-[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%201.PNG)
-[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
-[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%203.PNG)
-[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%204.PNG)
-[!Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best%20run.PNG)
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%201.PNG)
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%203.PNG)
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%204.PNG)
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
 **Best Run Metrics:**
 [!Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/automl.PNG)
 
