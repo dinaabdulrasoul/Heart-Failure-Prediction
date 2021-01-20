@@ -150,6 +150,7 @@ To send a request to the endpoint the following steps are followed:
             }
         ]
         }
+        
 * Creating the header with key *Content-Type* and value *application/json*.
 * Setting the value of Authorization with Bearer token and primary key.
 * Finally we send the Post-request to the web-service. 
