@@ -78,7 +78,7 @@ Best Run Id:  AutoML_a0ce9e98-d212-464a-84ef-994c229fed02_36
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%203.PNG)
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%204.PNG)
-![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
+
 **Best Run Metrics:**
 [!Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/automl.PNG)
 
