@@ -129,7 +129,27 @@ The following steps have been performed to deploy the model and interact with it
 To send a request to the endpoint the following steps are followed:
 * Getting the primary key, JSON data and scoring URI. 
 * The JSON data should follow the following structure:
-![json format]() 
+
+    data= { "data":
+        [
+            {
+                'age': 60,
+                'anaemia': 245,
+                'creatinine_phosphokinase': 0,
+                'diabetes': 0,
+                'ejection_fraction': 38,
+                'high_blood_pressure': 1,
+                'platelets': 163000,
+                'serum_creatinine': 50,
+                'serum_sodium':100,
+                'sex':1,
+                'smoking':1,
+                'time':7
+                
+                
+            }
+        ]
+        }
 * Creating the header with key *Content-Type* and value *application/json*.
 * Setting the value of Authorization with Bearer token and primary key.
 * Finally we send the Post-request to the web-service. 
