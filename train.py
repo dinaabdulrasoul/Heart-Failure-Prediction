@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from sklearn.linear_model import LogisticRegression
 import argparse
 import os
@@ -17,8 +11,7 @@ from azureml.core.run import Run
 from azureml.data.dataset_factory import TabularDatasetFactory
 from azureml.core import Dataset
 
-# Importing our data from github
-data = TabularDatasetFactory.from_delimited_files(path="https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/heart_failure_clinical_records_dataset.csv")
+ds= TabularDatasetFactory.from_delimited_files(path="https://raw.githubusercontent.com/gpriya32/nd00333-capstone/master/starter_file/heart_failure_clinical_records_dataset.csv")
 
 def clean_data(data):
    
@@ -26,11 +19,9 @@ def clean_data(data):
     y_df = x_df.pop("DEATH_EVENT")
     return x_df, y_df
 
-x, y = clean_data(data)
+x, y = clean_data(ds)
 
-# Splitting our data into train & test datasets
-
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state = 42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.20, random_state=42)
 
 run = Run.get_context()
 
@@ -53,9 +44,8 @@ def main():
     accuracy = model.score(x_test, y_test)
     run.log("Accuracy", np.float(accuracy))
     os.makedirs('outputs', exist_ok=True)
-
-    joblib.dump(value=model, filename='outputs/hyperdrive_model.pkl')
+    # note file saved in the outputs folder is automatically uploaded into experiment record
+    joblib.dump(value=model, filename='outputs/hypermodel.pkl')
 
 if __name__ == '__main__':
     main()
-
