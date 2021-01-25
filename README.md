@@ -54,13 +54,13 @@ The AutoML configuration included the following:
   * Defining the training data and target column, which is **DEATH_EVENT**.
   * Setting the number of cross validations which is in this model equals 3.
   * Enable auto-featurization to allow feature engineering, scaling and normalizing the data.
-  * Enabling debug_log for debugging. 
-  * Enabling early_stopping to save computational power.
+  * Enabling early_stopping to save computational power in case the model runs for too long.
 
 
 ### Results
 * The best model was the **Voting Ensemble** model with an accuracy of **0.86290**.  
-Best Run Id:  AutoML_a0ce9e98-d212-464a-84ef-994c229fed02_36
+Best Run Id:  
+![Best Run ID](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/id.png)
 * Voting Ensemble is an ensemble machine learning model that combines the predictions from multiple other models. It is a technique that may be used to improve model performance, ideally achieving better performance than any single model used in the ensemble, that involves summing the predictions made by classification models.
 * This result could be improved by increasing the experiment timeout time to allow automl to explore more models, which might be increase the accuracy. 
 
@@ -86,11 +86,11 @@ Best Run Id:  AutoML_a0ce9e98-d212-464a-84ef-994c229fed02_36
 ## Hyperparameter Tuning
 
 * We first need to prepare our train.py script following these steps:  
-  * Importing the csv file containing the marketing campaigns data into our dataset using the TabularDatasetFactory module.  
+  * Importing the csv file containing the marketing campaigns data into our dataset.
   * Cleaning the dataset, which included droping NaN values.  
   * Splitting our dataset into training set (80% of the data) & test set (20% of the data.)   
   * Creating a Logistic Regression model using sci-kit learn.  
-  * Creating a directory(outputs) to save the generated model into it.  
+  * Creating a directory to save the generated model into it.  
   * After the train.py script is ready, we choose a proper parameter sampling method for the inverse regularization paramter(C) & the maximum number of iterations(max_iter),    early termination policy and an estimator to create the HyperDriveConfig.  
 
 * The HyperDriveConfig was configured using the following:  
