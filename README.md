@@ -182,9 +182,14 @@ To send a request to the endpoint the following steps are followed:
 * Finally we send the Post-request to the web-service. 
 
 ## Screen Recording
-
+[Screencast](https://youtu.be/Li8YZ5ysXY4)
 
 ## Standout Suggestions
 Application Insights have been enabled for the deployed model. 
 ![Enabled](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/endpoint%20of%20automl%20run%202.PNG)
 ![App Insights](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/enable_logging.PNG) 
+
+## Future Improvements
+* Some of the imporvements might be using a different sampling paramater when configuring hyperdrive, for example: BayesianSampling or GridSampling, they might take up more time and resources however that might improve the accuracy.
+* Also we can try using a different termination policy or not using a termination policy at all, for example with BayesianSampling method as the data we have is not that large so an early termination policy is not really necessary.
+* For the AutoML configuration, we can try increase the timeout to 1 hour instead of 30 minutes. 
