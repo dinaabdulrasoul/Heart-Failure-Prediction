@@ -33,7 +33,7 @@ Heart failure is a common event caused by CVDs and this dataset contains 12 feat
 This is a binary classification task where our target column is **DEATH_EVENT** which may have the value 1 in case of death due to heart faulure and 0 in case of survival.
 
 ### Access
-The data has been downloaded from ![Kaggle](Kaggle https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) then uploaded to Azure Machine Learning Studio's Datasets where it'll be used to train the models.
+The data has been downloaded from ![Kaggle](https://www.kaggle.com/andrewmvd/heart-failure-clinical-data) then uploaded to Azure Machine Learning Studio's Datasets where it'll be used to train the models.
 
 ## Automated ML
 For the AutoML pipeline the following steps were done:
