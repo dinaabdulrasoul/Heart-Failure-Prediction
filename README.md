@@ -109,6 +109,15 @@ Best Run Id:  AutoML_a0ce9e98-d212-464a-84ef-994c229fed02_36
 The following diagram summarizes the workflow:  
 ![Scikit-learn Pipeline](https://github.com/dinaabdulrasoul/optimizing-an-ml-pipeline/blob/master/hyperdrive_pipeline.PNG)  
 
+Hyperdrive Run Details Widget:
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp1.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp2.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp3.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp4.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp5.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp6.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp7.PNG)
+
 **Algorithm**   
 Logistic Regression is a supervisied binary classification algorithm that predicts the probability of a target varaible, returning either 1 or 0 (yes or no).  
 
