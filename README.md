@@ -186,4 +186,5 @@ To send a request to the endpoint the following steps are followed:
 
 ## Standout Suggestions
 Application Insights have been enabled for the deployed model. 
+![Enabled](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/endpoint%20of%20automl%20run%202.PNG)
 ![App Insights](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/enable_logging.PNG) 
