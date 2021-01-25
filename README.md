@@ -103,20 +103,9 @@ Best Run Id:  AutoML_a0ce9e98-d212-464a-84ef-994c229fed02_36
                              max_concurrent_runs=4  
   * Then we submit the hyperdrive run.  
   * Once the run is complete, we choose the best run (the run that achieved the maximum accuracy), register the model generated and save it.
-  
- The best value of the Accuracy was found to be: **0.81667** using the following hyperparemeter values:
- ![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp6.PNG)
  
 **The following diagram summarizes the workflow:**  
 ![Scikit-learn Pipeline](https://github.com/dinaabdulrasoul/optimizing-an-ml-pipeline/blob/master/hyperdrive_pipeline.PNG)  
-
-**Hyperdrive Run Details Widget:**
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp1.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp2.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp3.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp4.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp5.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp7.PNG)
 
 **Algorithm**   
 Logistic Regression is a supervisied binary classification algorithm that predicts the probability of a target varaible, returning either 1 or 0 (yes or no).  
@@ -134,9 +123,19 @@ The benefits of this stopping policy* is that any run that doesn't fall within t
 
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
+ The best value of the Accuracy was found to be: **0.81667** using the following hyperparemeter values:
+ ![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp6.PNG)
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+**Hyperdrive Run Details Widget:**
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp1.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp2.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp3.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp4.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp5.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp7.PNG)
+
+**Note:** The results achieved here could be improved by increasing the number of total runs from 8 to a higher number like 50, but that would need more computational power.
+
 
 ## Model Deployment
 The **AutoML Voting Ensemble** model performed better than the logistic regression model tuned with **Hyperdrive** in terms of *accuracy*. 
@@ -183,10 +182,7 @@ To send a request to the endpoint the following steps are followed:
 * Finally we send the Post-request to the web-service. 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+
 
 ## Standout Suggestions
 Application Insights have been enabled for the deployed model. 
