@@ -1,0 +1,9 @@
+## env details
+
+best_run.download_file('outputs/scoring_file_v_1_0_0.py', entry_script)
+best_run.download_file(constants.CONDA_ENV_FILE_PATH, 'myenv.yml')
+
+##hyperdrive logs
+hyperdrive_run = experiment.submit(hyperdrive_run_config)
+RunDetails(hyperdrive_run).show()
+hyperdrive_run.wait_for_completion(show_output=True)
