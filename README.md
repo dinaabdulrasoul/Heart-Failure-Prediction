@@ -81,7 +81,7 @@ Best Run Id:
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20automl2.PNG)
 
 **Best Run Metrics from *Experiments* tab:**
-![Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20automl.PNG)
+![Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20metrics3.PNG)
 
 
 ## Hyperparameter Tuning
