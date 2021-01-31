@@ -64,23 +64,27 @@ Best Run Id:
 * Voting Ensemble is an ensemble machine learning model that combines the predictions from multiple other models. It is a technique that may be used to improve model performance, ideally achieving better performance than any single model used in the ensemble, that involves summing the predictions made by classification models.
 * This result could be improved by increasing the experiment timeout time to allow automl to explore more models, which might be increase the accuracy. 
 
-**AutoML Run Widget:**
-![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%201.PNG)
-![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%202.PNG)
-![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%203.PNG)
-![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%204.PNG)
-![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%205.PNG)
-![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/run_widgets%206.PNG)
+#### **AutoML Run Widget:**
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/run%20details%201.PNG)
+* **AutoML runs accuracy:**  
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/run%20details%207.PNG)
+**AutoML evaluated models:**  
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/run%20details%204.PNG)
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/run%20details%205.PNG)
+![Run Details](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/run%20details%206.PNG)
 
-**AutoML Best Run Details:**
-![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best%20run.PNG)
-![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%201.PNG)
+**AutoML Best Run Metrics:**
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20metrics.PNG)
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20metrics2.PNG)
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%203.PNG)
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%204.PNG)
 
-**Best Run Metrics:**
-![Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best%20run%20metrics%201.PNG)
+**Best Run from *Experiments* tab:**
+![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20automl2.PNG)
+
+**Best Run Metrics from *Experiments* tab:**
+![Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20automl.PNGG)
 
 
 ## Hyperparameter Tuning
@@ -124,29 +128,44 @@ The benefits of this stopping policy* is that any run that doesn't fall within t
 
 ### Results
  The best value of the Accuracy was found to be: **0.81667** using the following hyperparemeter values:
- ![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp6.PNG)
+ ![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/hp%20details.PNG)
 
-**Hyperdrive Run Details Widget:**
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp1.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp2.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp3.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp4.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp5.PNG)
-![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/hp7.PNG)
+#### **Hyperdrive Run Details Widget:**
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/hp3.PNG)
+* **Hyperdrive Accuracy:** 
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/hp5.PNG)
+* **2D Scatter Chart:**  
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/hp6.PNG)
+* **3D Scatter Chart:** 
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/hp7.PNG)
 
-**Note:** The results achieved here could be improved by increasing the number of total runs from 8 to a higher number like 50, but that would need more computational power.
+**Hyperdrive Logs:**  
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/hp%20logs.PNGG)
+
+**Hyperdrive Run from *Experiment* tab:**  
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/hp1.PNG)
+![hyperdrive](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/hp2.PNG)
+
+**Note:** The results achieved here could be improved by increasing the number of total runs from 4 to a higher number like 50, but that would need more computational power.
 
 
 ## Model Deployment
-The **AutoML Voting Ensemble** model performed better than the logistic regression model tuned with **Hyperdrive** in terms of *accuracy*. 
+
+**Registered Models from *Models* tab:**  
+![Models](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/models.PNG)
+**Note:** *model* is the hyperdrive model while *automl_model* is the AutoML model.
+
+As we can see, the **AutoML Voting Ensemble** model performed better than the logistic regression model tuned with **Hyperdrive** in terms of *accuracy*. 
 The following steps have been performed to deploy the model and interact with it:  
 * Saving the best run model.
 * Writing the scoring script.
 * Creating an ACI deployment configuration with key-based authentication enabled.
 * Configuring *InferenceConfig* using the environment & the scoring script created as an entry script.
 * Deploying the model to an ACI webservice. 
-![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/endpoint%20of%20automl%20run.PNG)  
-![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/endpoint%20of%20automl%20run%202.PNG) 
+**The deployed model from *Endpoints* tab:**  
+![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/deploy1.PNG)  
+![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/deploy1.PNG) 
+
 * A request is sent to the webservice endpoint.
 * The following image shows the post request sent to the request API as a JSON document as well as the output of that request:
 ![Rest call to endpoint run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/json.PNG) 
@@ -186,8 +205,10 @@ To send a request to the endpoint the following steps are followed:
 
 ## Standout Suggestions
 Application Insights have been enabled for the deployed model. 
-![Enabled](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/endpoint%20of%20automl%20run%202.PNG)
-![App Insights](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/enable_logging.PNG) 
+![Enabled](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/deploy2.PNG)
+
+**The applications's insights:**  
+![App Insights](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/app%20insights.PNG) 
 
 ## Future Improvements
 * Some of the imporvements might be using a different sampling paramater when configuring hyperdrive, for example: BayesianSampling or GridSampling, they might take up more time and resources however that might improve the accuracy.
