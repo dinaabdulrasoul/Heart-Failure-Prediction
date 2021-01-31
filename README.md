@@ -58,7 +58,7 @@ The AutoML configuration included the following:
 
 
 ### Results
-* The best model was the **Voting Ensemble** model with an accuracy of **0.86290**.  
+* The best model was the **Voting Ensemble** model with an accuracy of **0.85956**.  
 Best Run Id:  
 ![Best Run ID](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/id.png)
 * Voting Ensemble is an ensemble machine learning model that combines the predictions from multiple other models. It is a technique that may be used to improve model performance, ideally achieving better performance than any single model used in the ensemble, that involves summing the predictions made by classification models.
@@ -76,15 +76,12 @@ Best Run Id:
 **AutoML Best Run Metrics:**
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20metrics.PNG)
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20metrics2.PNG)
-![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%202.PNG)
-![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%203.PNG)
-![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/best_run%20details%204.PNG)
 
 **Best Run from *Experiments* tab:**
 ![Best Run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20automl2.PNG)
 
 **Best Run Metrics from *Experiments* tab:**
-![Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20automl.PNGG)
+![Best Metrics](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/best%20run%20automl.PNG)
 
 
 ## Hyperparameter Tuning
