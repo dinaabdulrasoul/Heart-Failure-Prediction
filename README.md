@@ -161,7 +161,7 @@ The following steps have been performed to deploy the model and interact with it
 * Deploying the model to an ACI webservice. 
 **The deployed model from *Endpoints* tab:**  
 ![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/deploy1.PNG)  
-![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/deploy1.PNG) 
+![Endpoint of AutoML run](https://github.com/dinaabdulrasoul/Heart-Failure-Prediction/blob/main/screenshots/more_screenshots/deploy2.PNG) 
 
 * A request is sent to the webservice endpoint.
 * The following image shows the post request sent to the request API as a JSON document as well as the output of that request:
