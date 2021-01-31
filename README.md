@@ -198,7 +198,7 @@ To send a request to the endpoint the following steps are followed:
 * Finally we send the Post-request to the web-service. 
 
 ## Screen Recording
-[Screencast](https://youtu.be/Li8YZ5ysXY4)
+[Screencast](https://youtu.be/OJYz7y-tdYk)
 
 ## Standout Suggestions
 Application Insights have been enabled for the deployed model. 
